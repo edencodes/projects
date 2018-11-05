@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<head>
+
+<title>Lorem Ipsum Dolor</title>
+
+<link rel="icon" href="https://image.ibb.co/jNgzv0/icon.png">
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<meta name="viewport" content="width=margin-left:-13px;device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html" charset="utf-8">
+
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Sans+Narrow:400,700|Enriqueta:400,700|Muli|" rel="stylesheet">
+
+<style type="text/css">
+
+@font-face {
+	font-family:"simplifica";
+	src:url('https://dl.dropboxusercontent.com/s/myzbakauopxksxv/SIMPLIFICA%20Typeface.ttf');
+}
+
+html, body {margin:0;padding:0;}
+body {
+	background-color: white;
+	color: #444444;
+	font: 12px 'Muli', sans-serif;
+  	font-smoothing: antialiased;
+  	word-wrap: break-word;
+  	-moz-osx-font-smoothing: grayscale;
+  	-webkit-font-smoothing: antialiased;
+}
+
+header {
+  	background-image: url(https://image.ibb.co/mV52k0/outlets.png);
+	background-repeat: repeat;
+	left: 0;
+	padding: 50px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+}
+
+.shrink {padding: 30px; opacity: .9;}
+
+#title {
+	color: white;
+	font: 38px 'Enriqueta', serif;
+}
+
+article {
+	font-size: 15px;
+	margin-top: 150px;
+	padding: 50px;
+}
+
+#about-section {
+	margin-bottom: 40px;
+}
+
+#about-section::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+
+#about-section img {
+	float: right;
+	margin: 0 0 45px 45px;
+	max-width: 100%;
+}
+
+#contact-section {
+	border-top: 1px solid #eee;
+	margin: 0 auto;
+	padding-top: 40px;
+	text-align: center;
+}
+
+#heading {
+	font: 35px 'Enriqueta', serif;
+	margin-bottom: 40px;
+}
+
+.contact {
+	border: 1px solid gray;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 30px 30px;
+	padding: 50px 30px;
+	text-align: center;
+	width: 20%;
+	transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+}
+
+.contact:hover {
+  	box-shadow:0 20px 40px -15px #333;
+  	-webkit-box-shadow:0 20px 40px -15px #333;
+  	-moz-box-shadow:0 20px 40px -15px #333;
+}
+
+nav {
+	color: white;
+	display: block;
+	margin-top: 2px;
+}
+
+nav span {
+	cursor: pointer;
+	transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+}
+
+nav span:hover {
+	color: #e2aeaa;
+}
+
+nav span:not(:last-child) {
+	margin-right: 10px;
+}
+
+footer {
+	background: #eee;
+	color: #bbb;
+	padding: 30px;
+	text-align: center;
+}
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="http://yourjavascript.com/51117518515/shrink.js"></script>
+
+<script>
+$(document).ready(function(){
+$('#about').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600); 
+	return false; 
+	});
+$("#contact").click(function() {
+$('html,body').animate({ scrollTop: $("#set").offset().top}, 'slow');
+	});
+});
+</script>
+
+</head>
+<body>
+
+<header>
+	<div id="title">Lorem Ipsum.</div>
+	
+	<nav>
+		<span id="about">about</span>
+		<span id="contact">contact</span>
+	</nav>
+</header>
+
+<article>
+<div id="about-section">
+<img src="https://image.ibb.co/dABRxf/tumblr-nrskhe-Cw-BB1sulnzno1-500.jpg" max-width="100%">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec varius nibh. Donec commodo facilisis nulla, nec rutrum est ullamcorper ac. Etiam elementum consequat fermentum. Aenean ac laoreet augue. Nullam a ex eget felis mattis pretium. Sed ullamcorper augue non lorem molestie, et facilisis erat malesuada. Nulla dapibus lorem vel dignissim posuere. Donec varius, nisl id ultrices venenatis, tellus diam imperdiet diam, id rhoncus metus elit a quam. Integer vel efficitur odio. Quisque ornare est ac nisi ornare porta. Maecenas nec faucibus ligula, ut tristique eros. Nulla condimentum elementum fermentum. Curabitur aliquet nec augue in accumsan. Ut dui tortor, mattis vitae velit quis, mattis mattis nisi. Donec in varius tellus. Suspendisse sit amet tellus magna.</p>
+<p>In hac habitasse platea dictumst. Pellentesque interdum ipsum tortor, sit amet rhoncus nunc mollis vel. Sed auctor scelerisque rutrum. Donec eget tortor sit amet risus tristique ultrices. Nullam imperdiet eu mi sit amet rutrum. Aliquam non eros mattis, sollicitudin elit vel, pharetra leo. Etiam ac ex mauris. Phasellus aliquet urna sed tempus convallis. In auctor, augue non tincidunt pretium, felis purus rhoncus justo, et cursus orci massa ac turpis. Nunc id suscipit lacus. Cras blandit nibh in vestibulum rutrum. Suspendisse a nisl tristique, auctor mi id, porttitor erat. Sed ligula mauris, tempor ut rhoncus et, imperdiet nec tellus. Proin urna orci, ullamcorper quis faucibus eu, lacinia ut magna.</p>
+<p>Praesent nec arcu ante. Nulla accumsan euismod diam a iaculis. Nam accumsan faucibus finibus. Donec luctus tortor eget ullamcorper ullamcorper. In laoreet urna nibh, quis molestie elit luctus at. Sed at iaculis neque, a aliquet elit. Donec in ligula vitae sem euismod fermentum.</p>
+<p id="set">Nullam auctor molestie ipsum, eu gravida tortor rhoncus nec. Donec nec finibus lectus. Vivamus interdum placerat tempus. Phasellus tempus felis non turpis interdum, a convallis nisl viverra. Pellentesque ullamcorper sapien id tempor ornare. Nulla sed vehicula sapien. Phasellus aliquet lectus a risus varius viverra. Aliquam molestie mollis ullamcorper. Nam ac lectus odio. Nulla id justo sit amet tortor gravida molestie.</p>
+</div>
+
+<div id="contact-section">
+
+<div id="heading">Contact.</div>
+<div class="contact">
+<img style="margin-bottom:10px;" src="https://image.ibb.co/kFF07f/email.png"><br>janniegemang@gmail.com
+</div>
+<div class="contact">
+<img style="margin-bottom:10px;" src="https://image.ibb.co/dY7oSf/mobile.png"><br>0939 681 8626
+</div>
+<div class="contact">
+<img style="margin-bottom:10px;" src="https://image.ibb.co/mJZ4YL/website.png"><br>emilykaldiwn@tumblr
+</div>
+</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec varius nibh. Donec commodo facilisis nulla, nec rutrum est ullamcorper ac. Etiam elementum consequat fermentum. Aenean ac laoreet augue. Nullam a ex eget felis mattis pretium. Sed ullamcorper augue non lorem molestie, et facilisis erat malesuada. Nulla dapibus lorem vel dignissim posuere. Donec varius, nisl id ultrices venenatis, tellus diam imperdiet diam, id rhoncus metus elit a quam. Integer vel efficitur odio. Quisque ornare est ac nisi ornare porta. Maecenas nec faucibus ligula, ut tristique eros. Nulla condimentum elementum fermentum. Curabitur aliquet nec augue in accumsan. Ut dui tortor, mattis vitae velit quis, mattis mattis nisi. Donec in varius tellus. Suspendisse sit amet tellus magna.</p>
+</article>
+
+<footer>
+	Copyright (c) 2018 Jannie Gemang
+</footer>
+
+</body>
+</html>
